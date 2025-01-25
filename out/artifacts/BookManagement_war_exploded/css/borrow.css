@@ -1,0 +1,97 @@
+html {
+    background-color: #FFF5E1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /*隐藏溢出、清除浮动、解除坍塌*/
+}
+.return-btn {
+    color: white;
+    background-color: #FF5722; /* 红色警告色 */
+}
+.admin-body{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* 添加阴影效果 */
+    border-radius: 10px; /* 圆角边框 */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* 添加边框 */
+    background-color: white;
+}
+body {
+    color: #6B4226; /* Dark brown text */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    background-color: #FFD700; /* Warm yellow header background */
+    color: #6B4226; /* Dark brown text */
+    padding: 10px;
+}
+td {
+    background-color: #FFF8DC; /* Light warm background for table cells */
+    color: #6B4226; /* Dark brown text */
+    padding: 10px;
+}
+a {
+    color: #D2691E; /* Warm brown link color */
+}
+button {
+    background-color: #FFB347; /* Warm orange button background */
+    color: #FFFFFF; /* White text on buttons */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #FF7F50; /* Slightly darker orange on hover */
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.text-label{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-right: 10px;
+}
+.text-label, input[type="text"] {
+    grid-column: span 2; /* 每个标签和输入框占据两个网格列 */
+}
+#bookForm {
+    display: flex;
+    justify-content: center;
+}
+.container1{
+    width: 50%;
+}
+.container2{
+    width: 40%;
+}

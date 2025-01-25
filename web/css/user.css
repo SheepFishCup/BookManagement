@@ -1,0 +1,18 @@
+html {
+    background-color: #FFF5E1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.profile-container{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color:white;
+}
+.profile-item{
+    margin: 20px;
+}
+.changebtn{
+    margin: 20px;
+}

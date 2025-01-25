@@ -1,0 +1,94 @@
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /*隐藏溢出、清除浮动、解除坍塌*/
+}
+.admin_top {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -16px;
+}
+.register_top1 {
+    background-color: black;
+    color: #12aee0; /* 设置文本颜色 */
+    height: 100px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.register_top2 {
+    background-color: black;
+    color: white; /* 设置文本颜色为白色 */
+    height: 100px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+
+}
+.a1{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.admin-container{
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 50px); /* 100px 是顶部菜单栏的高度，根据实际情况调整 */
+}
+.admin_side {
+    margin-top: 15px;
+    background-color: #56536A;
+    width: 15%; /* 设置左侧菜单栏的最大宽度为250像素，根据您的设计需要进行调整 */
+    flex-direction: column;
+    height: calc(100vh - 50px); /* 100px 是顶部菜单栏的高度，根据实际情况调整 */
+}
+.admin-side-scroll{
+    background-color: black;
+    overflow-y: auto; /* 如果左侧菜单高度超过父容器高度，添加垂直滚动条 */
+}
+.admin-nav {
+    list-style-type: none; /* 移除列表项前面的符号 */
+    display: flex; /* 使用 Flexbox 布局 */
+    flex-direction: column; /* 垂直排列 */
+    justify-content: space-around; /* 让每个列表项垂直均匀分布 */
+    padding: 10px; /* 重置内边距 */
+    margin: 0;
+}
+.admin-nav-item {
+    list-style-type: none; /* 移除列表项前面的符号 */
+    flex: 1; /* 每个列表项均匀占据空间 */
+    text-align: center; /* 文字居中显示 */
+}
+.admin-nav-item1 {
+    list-style-type: none; /* 移除列表项前面的符号 */
+    height: 50px; /* 设置每一行的高度为40像素，根据您的设计需要进行调整 */
+    text-align: center; /* 文本左对齐 */
+    padding-top: 10px;
+    color: white;
+}
+.admin-nav-item1:hover {
+    background-color: #777; /* 鼠标悬停时的背景颜色 */
+}
+.white-text{
+    color: white;
+    text-decoration: none; /* 去除下划线 */
+    cursor: pointer; /* 鼠标悬停时显示手型指示链接 */
+}
+.admin-body{
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    margin-top: 15px;
+    width: 85%;
+}
+#view_frame {
+    box-sizing: border-box; /* 让填充包括在元素的宽度和高度内 */
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+}

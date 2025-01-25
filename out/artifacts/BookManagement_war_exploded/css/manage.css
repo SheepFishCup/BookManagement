@@ -1,0 +1,134 @@
+html {
+    background-color: #FFF5E1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /*隐藏溢出、清除浮动、解除坍塌*/
+}
+.container{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* 添加阴影效果 */
+    border-radius: 10px; /* 圆角边框 */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* 添加边框 */
+    background-color: white;
+}
+.admin-input {
+    margin: 15px;
+    padding: 10px; /* 设置内边距 */
+    border: 1px solid #ccc; /* 设置边框样式 */
+    border-radius: 5px; /* 设置圆角边框 */
+    font-size: 16px; /* 设置字体大小 */
+}
+.admin-input:focus {
+    outline: none; /* 移除默认的聚焦样式 */
+    border-color: #007bff; /* 设置聚焦时的边框颜色 */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* 设置聚焦时的阴影效果 */
+}
+.admin-input::placeholder {
+    color: #999; /* 设置占位符文本颜色 */
+}
+#searchButton{
+    padding: 10px 20px; /* 设置内边距 */
+    background-color: #007bff; /* 设置背景颜色 */
+    color: #fff; /* 设置文字颜色 */
+    border: none; /* 移除边框 */
+    border-radius: 5px; /* 设置圆角 */
+    cursor: pointer; /* 设置鼠标指针样式为手型 */
+}
+#searchButton:hover {
+    background-color: #0056b3; /* 设置鼠标悬停时的背景颜色 */
+}
+#addBookBtn {
+    padding: 10px 20px; /* 设置内边距 */
+    background-color: #ffb700; /* 设置背景颜色 */
+    color: #fff; /* 设置文字颜色 */
+    border: none; /* 移除边框 */
+    border-radius: 5px; /* 设置圆角 */
+    cursor: pointer; /* 设置鼠标指针样式为手型 */
+}
+#addBookBtn:hover {
+    background-color: #a56702; /* 设置鼠标悬停时的背景颜色 */
+}
+
+.table-container {
+    margin: 20px; /* 添加外边距 */
+}
+
+.admin-table {
+    padding: 50px;
+    width: 100%; /* 设置表格宽度为100% */
+    border: 1px solid #ccc;
+    border-collapse: collapse; /* 合并边框 */
+}
+
+.admin-table th, .admin-table td {
+    padding: 8px; /* 设置单元格内边距 */
+    border: 1px solid #ddd; /* 设置边框样式 */
+}
+
+.admin-table th {
+    background-color: #f2f2f2; /* 设置表头背景颜色 */
+}
+
+.admin-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* 设置偶数行背景色 */
+}
+.editsubmit{
+    margin-top: 20px;
+    background-color: #FF5722; /* 红色警告色 */
+    border-radius: 10px;
+    border: none; /* 取消边框 */
+    padding: 10px 20px; /* 调整按钮内边距 */
+    font-size: 16px; /* 调整字体大小 */
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.text-label{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-right: 10px;
+}
+.text-label, input[type="text"] {
+    grid-column: span 2; /* 每个标签和输入框占据两个网格列 */
+}
+#bookForm {
+    display: flex;
+    justify-content: center;
+}
+.container1{
+    width: 50%;
+}
+.container2{
+    width: 40%;
+}
+
+

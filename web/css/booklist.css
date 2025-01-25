@@ -1,0 +1,66 @@
+html {
+    background-color: #FFF5E1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.container{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color:white;
+}
+.admin-input {
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.admin-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.admin-input::placeholder {
+    color: #999;
+}
+
+#searchBtn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#searchBtn:hover {
+    background-color: #0056b3; /* 设置鼠标悬停时的背景颜色 */
+}
+
+.table-container {
+    margin: 20px; /* 添加外边距 */
+}
+
+.admin-table {
+    padding: 50px;
+    width: 100%; /* 设置表格宽度为100% */
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.admin-table th, .admin-table td {
+    padding: 8px;
+    border: 1px solid #ccc;/ 设置边框样式 */
+}
+
+.admin-table th {
+    background-color: #f2f2f2; /* 设置表头背景颜色 */
+}
+
+.admin-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* 设置偶数行背景色 */
+}

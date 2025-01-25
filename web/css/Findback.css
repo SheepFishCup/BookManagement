@@ -1,0 +1,23 @@
+html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /*隐藏溢出、清除浮动、解除坍塌*/
+    background-color: wheat;
+}
+.register_top{
+    display: block;
+    background-color: #232222;
+    -webkit-text-fill-color: deepskyblue;
+    margin: 0;
+    padding: 10px;
+    text-align: center; /* 居中文本 */
+}
+.my-body {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+.layui-footer {
+    margin-top: 50px;
+    text-align: center;
+}
